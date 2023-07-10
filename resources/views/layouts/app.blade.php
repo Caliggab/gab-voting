@@ -19,7 +19,7 @@
 <body class="font-sans text-gray-900 text-sm bg-gray-background">
     <header class="flex items-center justify-between px-6 py-4">
         <a href="#">
-            <img src="{{ asset('img/logo.png') }}" alt="logo" width="180px">
+            <img src="{{ asset('img/logo.png') }}" alt="logo" width="150px">
         </a>
         <div class="flex items-center">
             @if (Route::has('login'))
